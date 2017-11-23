@@ -6,6 +6,7 @@ import java.util.Collection;
 import org.assertj.swing.fixture.FrameFixture;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -14,6 +15,7 @@ import org.junit.runners.Parameterized.Parameters;
 import CalcUI.CFrame;
 
 @RunWith(Parameterized.class)
+@Ignore
 public class TestsRJ 
 {
 	private FrameFixture calc;
